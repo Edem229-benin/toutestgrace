@@ -1,9 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- PAGE D'ACCUEIL - PRIORITÉ MAX -->
   <url>
     <loc>https://www.toutestgrace.shop/</loc>
     <lastmod>2024-01-11</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    
+    <!-- Images importantes de la page d'accueil -->
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/profilda1.png</image:loc>
+      <image:title>Pasteur YENOU Paul - Directeur Académique de l'Institut Biblique et Théologique Apostolique du Bénin</image:title>
+      <image:caption>Pasteur YENOU Paul, fondateur de TOUT EST GRÂCE</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/logo.png</image:loc>
+      <image:title>Logo TOUT EST GRÂCE - Documents Théologiques</image:title>
+    </image:image>
   </url>
+  
+  <!-- SECTION BOUTIQUE -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#shop</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- SECTION À PROPOS -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#about</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/profilda1.png</image:loc>
+      <image:title>Pasteur YENOU Paul - Directeur Académique IBTAB</image:title>
+    </image:image>
+  </url>
+  
+  <!-- SECTION GALERIE -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#gallery</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/gallerie1.png</image:loc>
+      <image:title>Galerie TOUT EST GRÂCE - Image 1</image:title>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/gallerie2.png</image:loc>
+      <image:title>Galerie TOUT EST GRÂCE - Image 2</image:title>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/galerie3.png</image:loc>
+      <image:title>Galerie TOUT EST GRÂCE - Image 3</image:title>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.toutestgrace.shop/gallerie4.png</image:loc>
+      <image:title>Galerie TOUT EST GRÂCE - Image 4</image:title>
+    </image:image>
+  </url>
+  
+  <!-- SECTION VIDÉO -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#video</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    
+    <!-- Information vidéo -->
+    <video:video>
+      <video:thumbnail_loc>https://www.toutestgrace.shop/video-thumbnail.jpg</video:thumbnail_loc>
+      <video:title>Cérémonie de graduation ISOM 2022 - TOUT EST GRÂCE</video:title>
+      <video:description>Cérémonie de graduation des étudiants de la promotion 2022 de ISOM le 10 Mars 2022</video:description>
+      <video:content_loc>https://toutestgrace.org/wp-content/uploads/2024/01/title-artist.mp4</video:content_loc>
+      <video:duration>600</video:duration>
+      <video:view_count>1000</video:view_count>
+      <video:publication_date>2022-03-10T00:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  
+  <!-- SECTION TÉMOIGNAGES -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#testimonials</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- PAGE DE CONTACT (via WhatsApp) -->
+  <url>
+    <loc>https://www.toutestgrace.shop/#contact</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- LIEN VERS TOUTESTGRACE.ORG -->
+  <url>
+    <loc>https://toutestgrace.org/</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
 </urlset>

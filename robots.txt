@@ -1,7 +1,75 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.toutestgrace.shop/sitemap.xml
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.ttf
+Allow: /*.eot
 
-# Bloquer l'ancien domaine
+# Bloquer les sections inutiles pour les bots
+Disallow: /admin/
+Disallow: /login/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /search/
+Disallow: /?s=
+Disallow: /*?s=
+Disallow: /*?redirect_to=
+Disallow: /*?action=
+Disallow: /*?utm_
+
+# Bloquer certains fichiers
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /*.ppt$
+Disallow: /*.pptx$
+Disallow: /*.zip$
+Disallow: /*.rar$
+
+# Instructions spécifiques pour les moteurs de recherche
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 3
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 5
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+# BLOQUER L'ANCIEN DOMAINE DE MANIÈRE EXPLICITE
 User-agent: *
 Disallow: https://www.toutestgrace.site/
+Disallow: http://www.toutestgrace.site/
+Disallow: https://toutestgrace.site/
+Disallow: http://toutestgrace.site/
+
+# Sitemap
+Sitemap: https://www.toutestgrace.shop/sitemap.xml
+Sitemap: https://www.toutestgrace.shop/sitemap-images.xml
